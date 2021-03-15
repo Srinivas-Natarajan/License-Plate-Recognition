@@ -2,7 +2,7 @@
 
 ## Summary
 
-This project takes an input of an image and outputs all possible license plates present along with identifying the plate details. Based on the KNN model.
+The program takes an image input and pre-processes using edge detection and gray-scaling to detect the location of all possible License Plates in the picture. It then ueses OCR to identify the characters on the isolated plates to get the license plate characters. Users can select the "Show Steps" option to display the output of each step. Outputs an overlay of the license plate characters using the KNN model.
 
 ## Pictures
 
